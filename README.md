@@ -5,3 +5,11 @@
      
      
      
+     
+     
+     
+     
+     String str = "select * from mess where height < ? and name = ?"
+     PreparedStatement sql = con.prepareStatement(str);
+     
+     
