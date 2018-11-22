@@ -13,3 +13,16 @@
      PreparedStatement sql = con.prepareStatement(str);
      
      
+     
+     随即流
+      使用RandomAccessFile类来创建一个随机访问的文件流，创建的流指向既可以作为源也可以作为目的地
+       构造方法
+       
+       
+       
+       try{ inAndOut = new RandomAccessFile("","rw");
+       for(int i =0; i<data.length;i++){
+       }
+       }
+       
+     
